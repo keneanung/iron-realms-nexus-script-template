@@ -1,0 +1,16 @@
+{
+  "name": "nexus_script_template",
+  "version": "1.0.0",
+  "description": "Template for nexus scripts using typescript",
+  "author": "keneanung <keneanung@googlemail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "@keneanung/iron-realms-nexus-typings": "^0.0.1"
+  }
+}

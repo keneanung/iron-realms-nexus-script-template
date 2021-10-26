@@ -4,6 +4,7 @@
   "description": "Template for nexus scripts using typescript",
   "author": "keneanung <keneanung@googlemail.com>",
   "license": "MIT",
+  "main": "lib/index.js",
   "devDependencies": {
     "@keneanung/iron-realms-nexus-typings": "^0.0.1",
     "@types/jest": "^27.0.2",
@@ -38,6 +39,7 @@
   },
   "files": [
     "lib/**/*",
-    "!lib/**/__tests__/*"
+    "!lib/**/__tests__/*",
+    "!lib/webpack/**/*"
   ]
 }

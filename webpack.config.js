@@ -2,7 +2,7 @@ const path = require('path');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './webpack/webpack.ts',
   module: {
     rules: [
       {
@@ -18,6 +18,10 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    library : {
+      type: "var",
+      name: "Greeter"
+    }
   },
   plugins: [new ESLintPlugin({
     extensions: [ '.tsx', '.ts', '.js', '.jsx' ]

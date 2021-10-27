@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation page for the Iron Realms Nexus Script template',
+  title: 'Iron Realms Nexus Script Template',
   tagline: 'Making Nexus scripts easier',
   url: 'https://keneanung.github.io',
   baseUrl: '/iron-realms-nexus-script-template/',
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Documentation page for the Iron Realms Nexus Script template',
+        title: 'Iron Realms Nexus Script Template',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',

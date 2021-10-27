@@ -35,20 +35,20 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
+
   publish-website:
       runs-on: ubuntu-latest
-      
+
       steps:
         - uses: actions/checkout@v2
         - uses: actions/setup-node@v2
         - name: javascript asset
           run: >
             npm install
-            npm run webpackProd 
+            npm run webpackProd
             cp dist/bundle.js website/static
         - name: build website
-          working-directory: ${{GITHUB_WORKSPACE}}/website/
+          working-directory: ${{env.GITHUB_WORKSPACE}}/website/
           run: >
             npm install
             npm run build

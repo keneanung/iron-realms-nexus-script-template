@@ -1,7 +1,7 @@
 # Iron Realms Nexus Script Template #
 
 The world of JavaScript is full of useful tools for writing complex programs and scripts.
-As a professional developer, I wanted to take advantage of these tools for complexer
+As a professional developer, I wanted to take advantage of these tools for more complex
 packages for Nexus, which makes only rudimentary tools available. But setting the tools
 up and combining them takes a lot of boilerplate, which is not easily configured.
 

@@ -11,7 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  publish-npm-package:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -35,3 +35,25 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+  publish-website:
+      runs-on: ubuntu-latest
+      
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-node@v2
+        - name: javascript asset
+          run: >
+            npm install
+            npm run webpackProd 
+            cp dist/bundle.js website/static
+        - name: build website
+          working-directory: ${{GITHUB_WORKSPACE}}/website/
+          run: >
+            npm install
+            npm run build
+        - name: Deploy to GitHub Pages
+          uses: JamesIves/github-pages-deploy-action@4.1.5
+          with:
+            branch: gh-pages
+            folder: website/build

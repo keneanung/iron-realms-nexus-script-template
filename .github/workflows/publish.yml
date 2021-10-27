@@ -43,13 +43,13 @@ jobs:
         - uses: actions/checkout@v2
         - uses: actions/setup-node@v2
         - name: javascript asset
-          run: >
+          run: |
             npm install
             npm run webpackProd
             cp dist/bundle.js website/static
         - name: build website
           working-directory: ${{env.GITHUB_WORKSPACE}}/website/
-          run: >
+          run: |
             npm install
             npm run build
         - name: Deploy to GitHub Pages

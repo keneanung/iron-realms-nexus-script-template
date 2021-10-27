@@ -48,8 +48,8 @@ jobs:
             npm run webpackProd
             cp dist/bundle.js website/static
         - name: build website
-          working-directory: ${{env.GITHUB_WORKSPACE}}/website/
           run: |
+            cd website
             npm install
             npm run build
         - name: Deploy to GitHub Pages

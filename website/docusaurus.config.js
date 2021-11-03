@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: `${configData.githubRepo}/edit/development/website/`,
+          editUrl: `${configData.githubRepoWebUrl}/edit/development/website/`,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            `${configData.githubRepo}/edit/development/website/blog/`,
+            `${configData.githubRepoWebUrl}/edit/development/website/blog/`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,7 +58,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: configData.githubRepo,
+            href: configData.githubRepoWebUrl,
             label: 'GitHub',
             position: 'right',
           },
@@ -85,7 +85,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: configData.githubRepo,
+                href: configData.githubRepoWebUrl,
               },
             ],
           },

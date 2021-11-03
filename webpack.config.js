@@ -1,5 +1,6 @@
 const path = require('path');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const configData = require('./config.js');
 
 module.exports = {
   entry: './webpack/webpack.ts',
@@ -20,7 +21,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     library : {
       type: "var",
-      name: "Greeter"
+      name: configData.libraryName
     }
   },
   plugins: [new ESLintPlugin({

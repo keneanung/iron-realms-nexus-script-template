@@ -86,6 +86,8 @@ contributers are part of the development at some point as it will help you find 
 The command `npm run test` will run your Unit Tests locally. Remember
 to write tests, so you know your code works. This will spare you a lot of reloading of
 Nexus and re-logging, which in turn will speed your development cycle up dramatically.
+You may also use the command `npm run testWatch` to continously run tests as you change
+files.
 
 Tests should test the functionality in the local folder and be contained in a subfolder
 named `__tests__` to be picked up automatically. For the format of unit tests in Jest,

@@ -60,7 +60,7 @@ Developing Nexus scripts with external tools is relatively cumbersome: getting y
 script to load into Nexus is not easy. However, this template aims to help by providing
 a command to host the script locallaly and a Nexus reflex package with a single alias.
 
-The command to get the development server starting is `npm run serve` or `yarn serve`
+The command to get the development server starting is `npm run serve`
 from the root directory of the project. This will start the webpack development server
 on port `8080` with your script. This has even hot reloading functionality (meaning you
 don't need to refresh the page when doing changes), but that feature is currently
@@ -73,17 +73,17 @@ development server and load the script in. This has to be done on every reload o
 
 #### Keeping the code clean ####
 
-The command `npm run lint` (or `yarn lint`) runs the configured ESLint locally, so you
+The command `npm run lint` runs the configured ESLint locally, so you
 don't have to commit and push your code to get warnings about best practice violations.
 It is recommended to run the command regularly.
 
-The same is true for `npm run format` (or `yarn format`), which will run your code
+The same is true for `npm run format`, which will run your code
 through a code formatter to keep it in a consistent style. This is important if multiple
 contributers are part of the development at some point as it will help you find things.
 
 #### Unit tests ####
 
-The command `npm run test` (or `yarn test`) will run your Unit Tests locally. Remember
+The command `npm run test` will run your Unit Tests locally. Remember
 to write tests, so you know your code works. This will spare you a lot of reloading of
 Nexus and re-logging, which in turn will speed your development cycle up dramatically.
 
@@ -118,4 +118,14 @@ browser to show how the site currently looks like.
 
 ## Installing ##
 
-TODO
+Use the button `Use this template` at the top right of this project. In the following page,
+give the new project a name and description and tick the `include all branches` box. After the
+repository is initialized, clone it to your local computer.
+
+After the initial clone, first run the command `npm install` to install
+the dependencies. Then modify the variables in `config.js` to suit your new project and run
+`npm run setup` (or `yarn setup`) to configure your package. You are now setup with a configured
+starter package for local development.
+
+Additionally, you may want to replace the README.md file with a landing page for your project
+and commit the initial changes to git.

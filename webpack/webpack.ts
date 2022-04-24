@@ -5,6 +5,4 @@ import { Greeter } from "../src/index"
 
 console.log(Greeter("world"));
 
-export {
-    Greeter
-};
+export default Greeter;

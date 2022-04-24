@@ -114,8 +114,8 @@ Release notes and other information can go into the `blog` folder.
 **IMPORTANT**: Do not modify the file `src/pages/index.md` as it will be overwritten by
 the main README file (this file) when publishing the website on a tag.
 
-To show, how your website will look like, you can use `npm run website` (or `yarn
-website`) in the root directory of the project to run a local webserver and open the
+To show, how your website will look like, you can use `npm run website`
+in the root directory of the project to run a local webserver and open the
 browser to show how the site currently looks like.
 
 ## Installing ##
@@ -126,7 +126,7 @@ repository is initialized, clone it to your local computer.
 
 After the initial clone, first run the command `npm install` to install
 the dependencies. Then modify the variables in `config.js` to suit your new project and run
-`npm run setup` (or `yarn setup`) to configure your package. You are now setup with a configured
+`npm run setup` to configure your package. You are now setup with a configured
 starter package for local development.
 
 Additionally, you may want to replace the README.md file with a landing page for your project

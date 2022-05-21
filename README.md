@@ -8,11 +8,13 @@ up and combining them takes a lot of boilerplate, which is not easily configured
 This template repository aims to deliver a pre-configured and opinionated environment for the aspiring Nexus developer. It configures the following features:
 
 - TypeScript as the programming language of choice
+- Babel for best possible downwards compatibility with older browsers
 - Automated export of the code as an NPM package, useful for writing libraries or
   publishing typings
 - Webpack for exporting the code for use on Nexus
 - webpack-server for local development (including a Nexus helper package)
 - Jest as Unit Test platform
+- StrykerJS to check the test coverage and find possible blind spots
 - Linting through ESLint to enforce coding best practices
 - Prettier as formatter
 - Automatically deployed Docusaurus website for documentation and hosting the code

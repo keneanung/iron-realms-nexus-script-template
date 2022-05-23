@@ -20,7 +20,7 @@
     "acorn": "^8.7.1",
     "babel-loader": "^8.2.5",
     "babel-plugin-react-native-web": "^0.17.7",
-    "core-js": "^3.22.5",
+    "core-js": "^3.22.6",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.2.2",

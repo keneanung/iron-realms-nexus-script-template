@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "devDependencies": {
     "@babel/core": "^7.18.2",
-    "@babel/plugin-transform-modules-commonjs": "^7.18.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@keneanung/iron-realms-nexus-typings": "^0.2.0",
     "@keneanung/nexus-package-builder": "^1.2.0",

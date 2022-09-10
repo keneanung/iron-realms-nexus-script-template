@@ -20,7 +20,7 @@
     "acorn": "^8.8.0",
     "babel-loader": "^8.2.5",
     "babel-plugin-react-native-web": "^0.18.9",
-    "core-js": "^3.25.0",
+    "core-js": "^3.25.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^27.0.1",
@@ -38,7 +38,7 @@
     "webpack": "^5.74.0",
     "webpack-auto-inject-version-next": "^1.2.4",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.1",
+    "webpack-dev-server": "^4.11.0",
     "write-pkg": "^5.1.0"
   },
   "scripts": {

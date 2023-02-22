@@ -22,7 +22,7 @@
     "babel-plugin-react-native-web": "^0.18.12",
     "core-js": "^3.28.0",
     "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-jest": "^27.1.7",
     "eslint-plugin-jsdoc": "^40.0.0",
     "eslint-plugin-prettier": "^4.2.1",

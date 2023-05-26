@@ -7,7 +7,7 @@
   "repository": "git://github.com/keneanung/iron-realms-nexus-script-template.git",
   "main": "lib/index.js",
   "devDependencies": {
-    "@babel/core": "^7.21.8",
+    "@babel/core": "^7.22.0",
     "@babel/plugin-transform-modules-commonjs": "^7.21.5",
     "@babel/preset-env": "^7.21.5",
     "@keneanung/iron-realms-nexus-typings": "^0.3.0",

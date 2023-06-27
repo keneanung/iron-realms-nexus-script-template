@@ -1,3 +1,6 @@
+> Repository archived. All code was moved to https://github.com/keneanung/nexus-scripts and lives on there. For more background, please read https://keneanung.github.io/nexus-scripts/blog/2023/06/23/_a_new_home.
+> The template here will not be maintained as I currently see no usage of it. If you need help creating your own repo, feel free to reach out to me.
+
 # Iron Realms Nexus Script Template #
 
 The world of JavaScript is full of useful tools for writing complex programs and scripts.
